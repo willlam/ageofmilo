@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39D264B21A80249000A3C401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D264B11A80249000A3C401 /* AppDelegate.swift */; };
+		39D264B41A80249000A3C401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D264B31A80249000A3C401 /* ViewController.swift */; };
+		39D264B71A80249000A3C401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D264B51A80249000A3C401 /* Main.storyboard */; };
+		39D264B91A80249100A3C401 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D264B81A80249100A3C401 /* Images.xcassets */; };
+		39D264BC1A80249100A3C401 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D264BA1A80249100A3C401 /* LaunchScreen.xib */; };
+		39D264C81A80249100A3C401 /* AgeOfMiloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D264C71A80249100A3C401 /* AgeOfMiloTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39D264C21A80249100A3C401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D264A41A80249000A3C401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D264AB1A80249000A3C401;
+			remoteInfo = AgeOfMilo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39D264AC1A80249000A3C401 /* AgeOfMilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeOfMilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D264B01A80249000A3C401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D264B11A80249000A3C401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39D264B31A80249000A3C401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39D264B61A80249000A3C401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39D264B81A80249100A3C401 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39D264BB1A80249100A3C401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		39D264C11A80249100A3C401 /* AgeOfMiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfMiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D264C61A80249100A3C401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D264C71A80249100A3C401 /* AgeOfMiloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfMiloTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D264A91A80249000A3C401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D264BE1A80249100A3C401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39D264A31A80249000A3C401 = {
+			isa = PBXGroup;
+			children = (
+				39D264AE1A80249000A3C401 /* AgeOfMilo */,
+				39D264C41A80249100A3C401 /* AgeOfMiloTests */,
+				39D264AD1A80249000A3C401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39D264AD1A80249000A3C401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39D264AC1A80249000A3C401 /* AgeOfMilo.app */,
+				39D264C11A80249100A3C401 /* AgeOfMiloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39D264AE1A80249000A3C401 /* AgeOfMilo */ = {
+			isa = PBXGroup;
+			children = (
+				39D264B11A80249000A3C401 /* AppDelegate.swift */,
+				39D264B31A80249000A3C401 /* ViewController.swift */,
+				39D264B51A80249000A3C401 /* Main.storyboard */,
+				39D264B81A80249100A3C401 /* Images.xcassets */,
+				39D264BA1A80249100A3C401 /* LaunchScreen.xib */,
+				39D264AF1A80249000A3C401 /* Supporting Files */,
+			);
+			path = AgeOfMilo;
+			sourceTree = "<group>";
+		};
+		39D264AF1A80249000A3C401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39D264B01A80249000A3C401 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39D264C41A80249100A3C401 /* AgeOfMiloTests */ = {
+			isa = PBXGroup;
+			children = (
+				39D264C71A80249100A3C401 /* AgeOfMiloTests.swift */,
+				39D264C51A80249100A3C401 /* Supporting Files */,
+			);
+			path = AgeOfMiloTests;
+			sourceTree = "<group>";
+		};
+		39D264C51A80249100A3C401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39D264C61A80249100A3C401 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39D264AB1A80249000A3C401 /* AgeOfMilo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D264CB1A80249100A3C401 /* Build configuration list for PBXNativeTarget "AgeOfMilo" */;
+			buildPhases = (
+				39D264A81A80249000A3C401 /* Sources */,
+				39D264A91A80249000A3C401 /* Frameworks */,
+				39D264AA1A80249000A3C401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgeOfMilo;
+			productName = AgeOfMilo;
+			productReference = 39D264AC1A80249000A3C401 /* AgeOfMilo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39D264C01A80249100A3C401 /* AgeOfMiloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D264CE1A80249100A3C401 /* Build configuration list for PBXNativeTarget "AgeOfMiloTests" */;
+			buildPhases = (
+				39D264BD1A80249100A3C401 /* Sources */,
+				39D264BE1A80249100A3C401 /* Frameworks */,
+				39D264BF1A80249100A3C401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D264C31A80249100A3C401 /* PBXTargetDependency */,
+			);
+			name = AgeOfMiloTests;
+			productName = AgeOfMiloTests;
+			productReference = 39D264C11A80249100A3C401 /* AgeOfMiloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39D264A41A80249000A3C401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "William Lam";
+				TargetAttributes = {
+					39D264AB1A80249000A3C401 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					39D264C01A80249100A3C401 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 39D264AB1A80249000A3C401;
+					};
+				};
+			};
+			buildConfigurationList = 39D264A71A80249000A3C401 /* Build configuration list for PBXProject "AgeOfMilo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39D264A31A80249000A3C401;
+			productRefGroup = 39D264AD1A80249000A3C401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D264AB1A80249000A3C401 /* AgeOfMilo */,
+				39D264C01A80249100A3C401 /* AgeOfMiloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39D264AA1A80249000A3C401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D264B71A80249000A3C401 /* Main.storyboard in Resources */,
+				39D264BC1A80249100A3C401 /* LaunchScreen.xib in Resources */,
+				39D264B91A80249100A3C401 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D264BF1A80249100A3C401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39D264A81A80249000A3C401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D264B41A80249000A3C401 /* ViewController.swift in Sources */,
+				39D264B21A80249000A3C401 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D264BD1A80249100A3C401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D264C81A80249100A3C401 /* AgeOfMiloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39D264C31A80249100A3C401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D264AB1A80249000A3C401 /* AgeOfMilo */;
+			targetProxy = 39D264C21A80249100A3C401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39D264B51A80249000A3C401 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D264B61A80249000A3C401 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39D264BA1A80249100A3C401 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D264BB1A80249100A3C401 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39D264C91A80249100A3C401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39D264CA1A80249100A3C401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39D264CC1A80249100A3C401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgeOfMilo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39D264CD1A80249100A3C401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgeOfMilo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39D264CF1A80249100A3C401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgeOfMiloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeOfMilo.app/AgeOfMilo";
+			};
+			name = Debug;
+		};
+		39D264D01A80249100A3C401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgeOfMiloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeOfMilo.app/AgeOfMilo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39D264A71A80249000A3C401 /* Build configuration list for PBXProject "AgeOfMilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D264C91A80249100A3C401 /* Debug */,
+				39D264CA1A80249100A3C401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D264CB1A80249100A3C401 /* Build configuration list for PBXNativeTarget "AgeOfMilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D264CC1A80249100A3C401 /* Debug */,
+				39D264CD1A80249100A3C401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39D264CE1A80249100A3C401 /* Build configuration list for PBXNativeTarget "AgeOfMiloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D264CF1A80249100A3C401 /* Debug */,
+				39D264D01A80249100A3C401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39D264A41A80249000A3C401 /* Project object */;
+}
