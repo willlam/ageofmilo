@@ -13,6 +13,7 @@
 		39D264B91A80249100A3C401 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D264B81A80249100A3C401 /* Images.xcassets */; };
 		39D264BC1A80249100A3C401 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D264BA1A80249100A3C401 /* LaunchScreen.xib */; };
 		39D264C81A80249100A3C401 /* AgeOfMiloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D264C71A80249100A3C401 /* AgeOfMiloTests.swift */; };
+		39D264D21A82D52A00A3C401 /* milo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39D264D11A82D52A00A3C401 /* milo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		39D264C11A80249100A3C401 /* AgeOfMiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfMiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D264C61A80249100A3C401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39D264C71A80249100A3C401 /* AgeOfMiloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfMiloTests.swift; sourceTree = "<group>"; };
+		39D264D11A82D52A00A3C401 /* milo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = milo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		39D264AF1A80249000A3C401 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39D264D11A82D52A00A3C401 /* milo.jpg */,
 				39D264B01A80249000A3C401 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D264D21A82D52A00A3C401 /* milo.jpg in Resources */,
 				39D264B71A80249000A3C401 /* Main.storyboard in Resources */,
 				39D264BC1A80249100A3C401 /* LaunchScreen.xib in Resources */,
 				39D264B91A80249100A3C401 /* Images.xcassets in Resources */,
